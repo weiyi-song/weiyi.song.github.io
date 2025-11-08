@@ -147,7 +147,7 @@ contact_form:
   enabled: true # set to true to enable the contact form
   title: "Get in Touch" # title displayed above the contact form
   description: "Have a question or want to work together? Feel free to leave me a message!" # description text
-  action: "https://formspree.io/f/xovyajwg" # Formspree form endpoint (see setup instructions below)
+  action: "https://formspree.io/f/mblqrkpn" # Formspree form endpoint (see setup instructions below)
   redirect_url: # optional: URL to redirect after form submission (leave blank to stay on same page)
   
   # SETUP INSTRUCTIONS:

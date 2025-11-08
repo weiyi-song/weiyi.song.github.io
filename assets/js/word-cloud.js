@@ -18,14 +18,14 @@
 
   // Firebase configuration
   const firebaseConfig = {
-    apiKey: "AIzaSyDSHfmz7eCGcAy7iCAr_XnelFZNGdN_U9w",
-    authDomain: "word-cloud-239c3.firebaseapp.com",
-    databaseURL: "https://word-cloud-239c3-default-rtdb.firebaseio.com",
-    projectId: "word-cloud-239c3",
-    storageBucket: "word-cloud-239c3.firebasestorage.app",
-    messagingSenderId: "497097581103",
-    appId: "1:497097581103:web:97eb13f7b34201b9989cda",
-    measurementId: "G-5HKW03SJD1"
+    apiKey: "AIzaSyDJtsPH6-3LDOQoyiDPkN3kzxuGwDcEG68",
+    authDomain: "word-cloud-c3866.firebaseapp.com",
+    databaseURL: "https://word-cloud-c3866-default-rtdb.firebaseio.com",
+    projectId: "word-cloud-c3866",
+    storageBucket: "word-cloud-c3866.firebasestorage.app",
+    messagingSenderId: "192631338765",
+    appId: "1:192631338765:web:d29441c4dbcd52487ae244",
+    measurementId: "G-QRJT0TRZHJ"
   };
 
   // Initialize
