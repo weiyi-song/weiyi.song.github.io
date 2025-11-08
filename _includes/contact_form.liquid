@@ -1,0 +1,89 @@
+{% if site.contact_form.enabled %}
+<div class="contact-form-section">
+  <h2 class="contact-form-title">{{ site.contact_form.title | default: "Get in Touch" }}</h2>
+  <p class="contact-form-description">
+    {{ site.contact_form.description | default: "Have a question or want to work together? Feel free to leave me a message!" }}
+  </p>
+  
+  <form 
+    id="contact-form" 
+    action="{{ site.contact_form.action }}" 
+    method="POST"
+    class="contact-form"
+  >
+    <div class="form-group">
+      <label for="name">Name <span class="required">*</span></label>
+      <input 
+        type="text" 
+        id="name" 
+        name="name" 
+        required 
+        placeholder="Your name"
+        class="form-control"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email <span class="required">*</span></label>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        required 
+        placeholder="your.email@example.com"
+        class="form-control"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input 
+        type="text" 
+        id="subject" 
+        name="subject" 
+        placeholder="What's this about?"
+        class="form-control"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message <span class="required">*</span></label>
+      <textarea 
+        id="message" 
+        name="message" 
+        required 
+        rows="5" 
+        placeholder="Your message here..."
+        class="form-control"
+      ></textarea>
+    </div>
+
+    <!-- Hidden field for form service -->
+    <input type="hidden" name="_subject" value="New message from {{ site.title }}" />
+    
+    <!-- Formspree/Web3Forms specific: redirect after submission -->
+    {% if site.contact_form.redirect_url %}
+    <input type="hidden" name="_next" value="{{ site.contact_form.redirect_url }}" />
+    {% endif %}
+
+    <!-- Honeypot field to prevent spam -->
+    <input type="text" name="_gotcha" style="display:none" />
+
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">
+        <i class="fas fa-paper-plane"></i> Send Message
+      </button>
+      <span class="form-status" id="form-status"></span>
+    </div>
+  </form>
+</div>
+
+<script>
+  // Optional: Add form submission handling for better UX
+  document.getElementById('contact-form').addEventListener('submit', function(e) {
+    var statusElement = document.getElementById('form-status');
+    statusElement.textContent = 'Sending...';
+    statusElement.className = 'form-status sending';
+  });
+</script>
+{% endif %}

@@ -140,6 +140,28 @@ newsletter:
   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
+# Contact Form
+# -----------------------------------------------------------------------------
+
+contact_form:
+  enabled: true # set to true to enable the contact form
+  title: "Get in Touch" # title displayed above the contact form
+  description: "Have a question or want to work together? Feel free to leave me a message!" # description text
+  action: "https://formspree.io/f/xovyajwg" # Formspree form endpoint (see setup instructions below)
+  redirect_url: # optional: URL to redirect after form submission (leave blank to stay on same page)
+  
+  # SETUP INSTRUCTIONS:
+  # 1. Go to https://formspree.io/ and sign up for a free account
+  # 2. Create a new form and get your form endpoint URL
+  # 3. Replace YOUR_FORM_ID above with your actual form ID from Formspree
+  # 4. The form will automatically send messages to the email associated with your Formspree account
+  # 
+  # Alternative: Use Web3Forms (https://web3forms.com/)
+  # 1. Go to https://web3forms.com/ and get a free access key
+  # 2. Replace the action URL with: https://api.web3forms.com/submit
+  # 3. Add a hidden field in contact_form.liquid: <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+
+# -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
