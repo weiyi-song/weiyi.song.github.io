@@ -122,7 +122,7 @@ nav_order: 3
       <div class="card h-100">
         <div class="video-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/bAPj1S69O2c" 
+            src="https://www.youtube.com/embed/i0bu6Eizo8U" 
             title="Performance 3"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
@@ -136,7 +136,7 @@ nav_order: 3
       <div class="card h-100">
         <div class="video-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/IfHzkWCyGKA" 
+            src="https://www.youtube.com/embed/LFsM_BEH2kI" 
             title="Performance 4"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
@@ -150,7 +150,7 @@ nav_order: 3
       <div class="card h-100">
         <div class="video-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/LFsM_BEH2kI" 
+            src="https://www.youtube.com/embed/bAPj1S69O2c"
             title="Performance 5"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
@@ -164,8 +164,41 @@ nav_order: 3
       <div class="card h-100">
         <div class="video-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/J_g5P9xa074" 
+            src="https://www.youtube.com/embed/IfHzkWCyGKA" 
             title="Performance 6"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  <!-- Row 4 -->
+  <div class="row row-cols-1 row-cols-md-2 g-4 mt-0">
+    
+    <!-- Video 7 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/J_g5P9xa074"
+            title="Performance 7"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Video 8 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/e34zCtESn_o" 
+            title="Performance 8"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
           </iframe>

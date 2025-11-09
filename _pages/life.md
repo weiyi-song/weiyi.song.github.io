@@ -179,7 +179,7 @@ nav_order: 7
 
 <div class="impression-container">
   <div class="input-section">
-    <h3> What words or phrases come to mind when you think of me? Feel free to share your impression of me!</h3>
+    <h3> What words or phrases come to mind when you think of me? </h3>
     
     <div class="input-group">
       <input 
