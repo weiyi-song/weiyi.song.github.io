@@ -18,3 +18,22 @@ html[data-theme-setting="light"] body {
 body, .navbar, .footer, .container, .post {
   background-clip: padding-box;
 }
+
+/* Import artistic fonts for name (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+/* Style for Weiyi Song name in navigation bar */
+.navbar-brand.title {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+/* Style for name on Bio page */
+.post-title {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}

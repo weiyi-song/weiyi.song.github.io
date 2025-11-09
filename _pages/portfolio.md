@@ -2,18 +2,22 @@
 layout: page
 title: Portfolio
 permalink: /portfolio/
-description: Performance videos and highlights
+description: 
 nav: true
 nav_order: 3
 ---
 
 <!-- Portfolio: Performance Videos -->
-## 🎭 Performance Portfolio
+
 
 <style>
   .video-portfolio {
     max-width: 1200px;
     margin: 0 auto;
+  }
+  
+  .video-portfolio .col {
+    margin-bottom: 2rem;
   }
   
   .video-portfolio .card {
@@ -96,13 +100,6 @@ nav_order: 3
             allowfullscreen>
           </iframe>
         </div>
-        <div class="card-body">
-          <h3 class="video-title">Performance Title 1</h3>
-          <p class="video-description">
-            Description of your performance, the role you played, the venue, or any other details you'd like to share.
-          </p>
-          <p class="video-meta">Date or Venue</p>
-        </div>
       </div>
     </div>
     
@@ -111,18 +108,11 @@ nav_order: 3
       <div class="card h-100">
         <div class="video-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" 
+            src="https://www.youtube.com/embed/aBZVmhbrerA" 
             title="Performance 2"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
           </iframe>
-        </div>
-        <div class="card-body">
-          <h3 class="video-title">Performance Title 2</h3>
-          <p class="video-description">
-            Description of your performance, the role you played, the venue, or any other details you'd like to share.
-          </p>
-          <p class="video-meta">Date or Venue</p>
         </div>
       </div>
     </div>
@@ -132,18 +122,11 @@ nav_order: 3
       <div class="card h-100">
         <div class="video-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3" 
+            src="https://www.youtube.com/embed/bAPj1S69O2c" 
             title="Performance 3"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
           </iframe>
-        </div>
-        <div class="card-body">
-          <h3 class="video-title">Performance Title 3</h3>
-          <p class="video-description">
-            Description of your performance, the role you played, the venue, or any other details you'd like to share.
-          </p>
-          <p class="video-meta">Date or Venue</p>
         </div>
       </div>
     </div>
@@ -153,18 +136,11 @@ nav_order: 3
       <div class="card h-100">
         <div class="video-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_4" 
+            src="https://www.youtube.com/embed/IfHzkWCyGKA" 
             title="Performance 4"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
           </iframe>
-        </div>
-        <div class="card-body">
-          <h3 class="video-title">Performance Title 4</h3>
-          <p class="video-description">
-            Description of your performance, the role you played, the venue, or any other details you'd like to share.
-          </p>
-          <p class="video-meta">Date or Venue</p>
         </div>
       </div>
     </div>
@@ -174,18 +150,11 @@ nav_order: 3
       <div class="card h-100">
         <div class="video-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_5" 
+            src="https://www.youtube.com/embed/LFsM_BEH2kI" 
             title="Performance 5"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
           </iframe>
-        </div>
-        <div class="card-body">
-          <h3 class="video-title">Performance Title 5</h3>
-          <p class="video-description">
-            Description of your performance, the role you played, the venue, or any other details you'd like to share.
-          </p>
-          <p class="video-meta">Date or Venue</p>
         </div>
       </div>
     </div>
@@ -195,60 +164,11 @@ nav_order: 3
       <div class="card h-100">
         <div class="video-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_6" 
+            src="https://www.youtube.com/embed/J_g5P9xa074" 
             title="Performance 6"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
           </iframe>
-        </div>
-        <div class="card-body">
-          <h3 class="video-title">Performance Title 6</h3>
-          <p class="video-description">
-            Description of your performance, the role you played, the venue, or any other details you'd like to share.
-          </p>
-          <p class="video-meta">Date or Venue</p>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Video 7 -->
-    <div class="col">
-      <div class="card h-100">
-        <div class="video-wrapper">
-          <iframe 
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_7" 
-            title="Performance 7"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
-        </div>
-        <div class="card-body">
-          <h3 class="video-title">Performance Title 7</h3>
-          <p class="video-description">
-            Description of your performance, the role you played, the venue, or any other details you'd like to share.
-          </p>
-          <p class="video-meta">Date or Venue</p>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Video 8 -->
-    <div class="col">
-      <div class="card h-100">
-        <div class="video-wrapper">
-          <iframe 
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_8" 
-            title="Performance 8"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
-        </div>
-        <div class="card-body">
-          <h3 class="video-title">Performance Title 8</h3>
-          <p class="video-description">
-            Description of your performance, the role you played, the venue, or any other details you'd like to share.
-          </p>
-          <p class="video-meta">Date or Venue</p>
         </div>
       </div>
     </div>
@@ -256,14 +176,4 @@ nav_order: 3
   </div>
 </div>
 
----
 
-**How to add your YouTube videos:**
-
-1. Go to your YouTube video
-2. Click "Share" → "Embed"
-3. Copy the video ID from the URL (the part after `https://www.youtube.com/watch?v=`)
-4. Replace `YOUR_VIDEO_ID_1`, `YOUR_VIDEO_ID_2`, etc. with your actual video IDs
-5. Update the titles, descriptions, and dates for each video
-
-**Example:** If your video URL is `https://www.youtube.com/watch?v=dQw4w9WgXcQ`, your video ID is `dQw4w9WgXcQ`

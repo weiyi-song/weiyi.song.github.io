@@ -1,14 +1,11 @@
 ---
 layout: page
-title: Impression
+title: What You See in Me
 permalink: /life/
-description: What people think of me
+description: Echoes & Impressions
 nav: true
 nav_order: 7
 ---
-
-<!-- Section 2: Word Cloud - What People Think of Me -->
-## 💭 Impressions of Me
 
 <style>
   .impression-container {
@@ -29,7 +26,7 @@ nav_order: 7
   .input-section h3 {
     margin-top: 0;
     margin-bottom: 15px;
-    color: var(--global-theme-color);
+    color: linen;
   }
 
   .input-section p {
